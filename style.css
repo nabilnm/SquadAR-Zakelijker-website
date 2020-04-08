@@ -1,0 +1,920 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Arvo', serif;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+/*fotosize*/
+.fotoObjective{
+    width:50%;
+    height:50%;
+}
+
+
+/*Initiate*/
+.Initiate{
+    background-image: url(images/achtergrond.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top:0%;
+
+}
+.logo{
+    position: absolute;
+    left: 5%;
+    top:5%;
+    font-size: 30px;
+    color:rgb(2, 45, 138);
+    text-decoration: underline;
+}
+.text{
+    width: 100%;
+}
+.text h5{
+    position: absolute;
+    width: 100%;
+    align-self: stretch;
+    top: 38%;
+    font-size:14px;
+    left: 3%;
+    color:rgba(2, 2, 138, 0.76);
+    text-shadow: rgb(0, 0, 0);
+}
+
+.text p{
+    position: absolute;
+    align-self: stretch;
+    font-size: 11px;
+    top: 44%;
+    left: 2%;
+    color: rgba(58, 58, 197, 0.76);
+    width: 100%;
+}
+.button{
+    width:100px;
+    border: solid 4px;
+    border-radius: 11px;
+    font-family: 'Nunito', sans-serif;
+    opacity: 0.9;
+    text-align: center;
+    font-size:20px;
+    padding: 10px;
+    color:rgba(71, 71, 184, 0.87);
+    background-color:transparent;
+}
+.button2{
+    position: absolute;
+    top: 61%;
+    left:33%;
+}
+
+.button:hover{
+    text-decoration:none;
+    color: #0533ff;
+  }
+
+/*objective*/
+.objective{
+    position: absolute;
+    width: 100%;
+    height: 78%;
+    top: 90%;
+    background-color:  #51abff1c;
+}
+
+.title{
+    position: absolute;
+    font-size: 25px;
+    top:10%;
+    left:2%;
+    color:rgba(2, 2, 138, 0.76);
+}
+
+.omschrijving{
+    font-size: 15px;
+    position: absolute;
+    width: 96%;
+    top: 22%;
+    left: 2%;
+}
+
+.image{
+    width: 100%;
+    top: 67%;
+    position: absolute;
+    left: 49%;
+}
+/*secondob*/
+.secondob{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    top: 166%;
+}
+
+.title1{
+    top:4%;
+    position: absolute;
+    font-size: 25px;
+    left:2%;
+    color:rgba(2, 2, 138, 0.76);
+}
+.omschrijving1{
+    position: absolute;
+    width: 96%;
+    top: 13%;
+    font-size: 15px;
+    left:2%;
+}
+
+.image1{
+    position: absolute;
+    top: 64%;
+    width: 100%;
+    left: 1%;
+}
+
+/*Contact*/
+.gegevens{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 251%;
+    background-color: #d6ebff1c; 
+}
+
+    .contact h5{
+        position: absolute;
+        top: 7%;
+        font-size: 25px;
+        left:2%;
+        color:rgba(2, 2, 138, 0.76);
+    }
+    .contact p{
+        position: absolute;
+        font-size: 14px;
+        top:25%;
+        left:2%;
+    }
+
+    .icon1{
+    position: absolute;
+    top: 39%;
+    left:1%;
+    width: 39px;
+    }
+    .icon1a{
+        position: absolute;
+        top:41%;
+        left:15.5%;
+        font-family:'Nunito', sans-serif;
+        font-size: 13px
+    }
+    .icon2{
+        position: absolute;
+        top:55%;
+        left:1%;
+        width: 39px;
+    }
+    .icon2a{
+        position: absolute;
+        top: 59%;
+        left: 15.5%;
+        font-family:'Nunito', sans-serif;
+        font-size: 13px;
+    }
+    
+    .icon3{
+        position: absolute;
+        top:72%;
+        left:1%;
+        width: 39px;
+    }
+    .icon3a{
+        position: absolute;
+        top:75%;
+        left:15.5%;
+        font-family:'Nunito', sans-serif;
+        font-size: 13px;
+    }
+
+    
+    @media screen and (min-width: 422px) and (max-width:599px){
+        /*initiate*/
+         .logo{
+                position: absolute;
+                left: 5%;
+                top:5%;
+                font-size: 30px;
+            }
+        .Initiate{
+            height: 98%;  
+        }
+        .button{
+            font-size: 27px;
+            border-radius: 10px;
+        }
+        
+        .button2{
+            top:56%;
+            left:39%;
+        }
+        .text p{
+            font-size: 12px;
+            top: 30%;
+            left: 5%;
+        }
+        .text h5{
+            font-size: 17px;
+            top: 21%;
+            left:7%;
+        }
+        /*objective*/
+        .objective{
+            height: 90%;
+        }
+        .title{
+            font-size: 35px;
+            top:15%
+        }
+
+        .omschrijving{
+        font-size: 17px;
+        position: absolute;
+        width: 94%;
+        top: 28%;
+        left: 1%;    
+        }
+
+        .image{
+            top: 70%;
+            }
+        
+        /*secondob*/
+        .secondob{
+            height: 100%;
+            top: 188%;
+        }
+        
+        .title1{
+            font-size:35px;
+            left:1%;
+        }
+        .omschrijving1{
+            position: absolute;
+            width: 94%;
+            top: 15%;
+            font-size: 17px;
+            left:1% ;
+        }
+        .image1{
+            top:55%;
+            left:1%;
+        }
+        /*Contact*/
+        .gegevens{
+            top: 279%;
+            height: 50%;
+        }
+
+        .contact h5{
+          font-size:35px;
+        }
+        .contact p{
+            font-size: 17px;
+        }
+
+        .image2{
+            width: 93%;
+            position: absolute;
+            top: 40%;
+            left: 52%;
+        }
+        .icon1{
+            width: 39px;
+            top:42%;
+        }
+        .icon2{
+            width: 39px;
+            top:59%
+        }
+
+        .icon3{
+            width: 39px;
+            top:80%
+        }
+        .icon1a{
+            left: 12%;
+            top:45%;
+            font-size: 15px;
+        }
+        .icon2a{
+            left:12%;
+            top:62%;
+            font-size: 15px;
+        }
+        .icon3a{
+            left:12%;
+            top:84%;
+            font-size: 15px;
+        }
+    }
+
+    @media screen and (min-width:600px) and (max-width:767px){
+         /*initiate*/
+        .fotoObjective{
+            width: 40%;
+        }
+         .logo{
+            position: absolute;
+            left: 5%;
+            top:5%;
+            font-size: 30px;
+        }
+         .text h5 {
+            font-size: 22px;
+            left: 18%;
+            top:26%;
+         }
+         .text p{
+            font-size: 14px;
+            left: 18%;
+            top:34%;
+         }
+
+         .button2{
+            top: 48%;
+            left: 47%;
+         }
+         .button{
+            font-size: 25px;
+            border-radius: 10px;
+         }
+
+        /*objective*/
+        .objective{
+            height: 90%;
+        }
+        .title{
+            font-size: 30px;
+        }
+        .omschrijving{
+            width: 60%;
+            font-size: 18px;
+        }
+        .image{
+            top: 22%;
+            left: 59%;
+        }
+        /*secondob*/
+        .secondob{
+            height: 90%;
+            top: 199%;
+        }
+        .title1{
+            font-size: 30px;
+            left:44%;
+            top:1%
+        }
+        .image1{
+            top: 18%;
+            left: 1%;
+        }
+        .omschrijving1{
+            font-size: 18px;
+            left: 44%;
+            width: 54%;
+        }
+        /*Contact*/
+       .gegevens{
+        height: 53%;
+        top: 280%;
+       }
+       .contact h5{
+        font-size: 30px;
+       }
+       .contact p{
+           font-size: 18px;
+       }
+       .image2{
+        top:32%;
+        left:57%;
+       }
+       .icon1{
+        width: 39px;
+    }
+    .icon2{
+        width: 39px;
+    }
+
+    .icon3{
+        width: 39px;
+    }
+
+       .icon1a{
+           left: 10%;
+           font-size: 15px;
+       }
+       .icon2a{
+           left:10%;
+           font-size: 15px;
+       }
+       .icon3a{
+        font-size: 15px;
+        left:10%;
+       }
+        }
+
+
+    /*tablet*/
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        /*Initiate*/
+        .fotoObjective{
+            width: 30%;
+        }
+        .logo{
+            position: absolute;
+            left: 4%;
+            top:5%;
+            font-size: 30px;
+        }
+        .text{
+            width: 90%;
+        }
+        .text h5{
+            font-size: 25px;
+            left: 22%;
+            top: 20%;
+        }
+        .text p{
+            font-size: 16px;
+            left: 24%;
+            top: 28%;
+        }
+        .button{
+            font-size: 19px;
+           border-radius: 10px;
+        }
+        .button2{
+            top: 54%;
+            left: 49%;
+        }
+        /*objective*/
+        .objective{
+            height: 76%;
+        }
+        .title{
+            font-size: 32px;
+            top: 15%;
+            left: 1%;
+        }
+        .omschrijving{
+            top:25%;
+            font-size: 19px;
+            width: 57%;
+            left: 1%;
+        }
+
+        .image1{
+            top: 16%;
+            width: 100%;
+            left: 1%;
+       
+        }
+        /*secondOb*/
+        .title1{
+            left: 45%;
+            top: 10%;
+        font-size: 32px;
+        }
+        .secondob{
+            height: 100%;
+        }
+        .image{
+            width: 100%;
+            top: 28%;
+            left: 58%;
+
+        }
+
+        .omschrijving1{
+            width: 54%;
+            top: 17%;
+            font-size: 19px;
+            left: 45%;
+        }
+
+        /*gegevens*/
+        .gegevens{
+            height: 76%;
+            top: 264%;
+        }
+
+        .contact h5{
+            font-size:32px;
+            left: 1%;
+        }
+
+        .contact p{
+            font-size: 19px;
+            left: 1%;
+        }
+        .icon1{
+            width: 39px;
+        }
+        .icon2{
+            width: 39px;
+        }
+
+        .icon3{
+            width: 39px;
+        }
+        
+        .icon1a{
+            font-size: 18px;
+            left:6%;
+        }
+        .icon2a{
+            font-size: 18px;
+            left:6%;
+        }
+        .icon3a{
+            font-size: 18px;
+            left:6%;
+        }
+      }
+
+
+      @media screen and (min-width: 1025px) and (max-width:1165px) {
+        /*Initiate*/
+        .fotoObjective{
+            width: 38%;
+        }
+        .logo{
+            position: absolute;
+            left: 3%;
+            top:5%;
+            font-size: 30px;
+        }
+            .text h5{
+                font-size: 32px;
+                left: 18%;
+                top: 18%;
+            }
+            .text p{
+                font-size: 21px;
+                left: 20%;
+                top: 29%;
+            }
+
+            .button{
+                font-size: 29px;
+                border-radius: 10px;
+            }
+            .button2{
+                top: 85%;
+                top: 58%;
+                left: 48%;
+            }
+         /*objective*/
+            .objective{
+                height: 90%;
+            }
+            .title{
+                font-size: 35px;
+                top: 21%;
+                left: 1%;
+            }
+            .omschrijving{
+                font-size: 22px;
+                width: 55%;
+                top: 33%;
+                left: 1%;
+            }
+            .image{
+                width: 98%;
+                top: 27%;
+                left:60%;
+            }
+
+         /*secondOb*/
+            .secondob{
+                height: 90%;
+                top: 180%;
+            }
+            .title1{
+                font-size: 35px;
+                top:3%;
+                left:45%;;
+            }
+
+         .omschrijving1{
+            font-size: 22px;
+            width: 53%;
+            top:15%;
+            left:45%;
+         }
+            .image1{
+                width: 98%;
+                left: 1%;
+                top: 10%;
+            }
+      
+        /*gegevens*/
+        .gegevens{
+            height:60%;
+            top: 270%;
+        }
+        .contact h5{
+            left:1%;
+            font-size: 35px;
+        }
+        .contact p{
+            left:1%;
+            font-size: 22px;
+        }
+        .icon1{
+            width: 39px;
+        }
+        .icon2{
+            width: 39px;
+        }
+
+        .icon3{
+            width: 39px;
+        }
+        .icon1a{
+            font-size: 19px;
+            left:6%;
+        }
+        .icon2a{
+            font-size: 19px;
+            left:6%;
+        }
+        .icon3a{
+            font-size: 19px;
+            left:6%;
+        }
+        }
+
+        @media screen and (min-width: 1166px) and (max-width:1280px) {
+            /*Fotosize*/
+        
+            .fotoObjective{
+                width:40%;
+            }
+             /*Initiate*/
+            .logo{
+                position: absolute;
+                left: 3%;
+                top:5%;
+                font-size: 30px;
+            }
+           
+            .title{
+                font-size: 32px;
+                
+            }
+            .text h5{
+                font-size:40px;
+                left: 18%;
+                top: 18%;
+            }
+            .text p{
+                font-size: 25px;
+                left: 20%;
+                top: 29%;
+            }
+            .button2{
+                left: 48%;
+                top: 57%;
+            }
+            .button{
+                border-radius: 10px;
+                width: 110px;
+                font-size: 30px;
+               
+            }
+           
+            /*objective*/
+            .objective{
+                height: 90%;
+            }
+            .title{
+                font-size: 32px;
+                top: 15%;
+            }
+            .omschrijving{
+                font-size: 23px;
+                width:60%;
+                top:28%;
+            }
+            .image{
+                top: 19%;
+                left:60%;
+            }
+             /*secondOb*/
+            .secondob{
+                top: 180%;
+            }
+            .title1{
+                font-size: 32px;
+                top: 11%;
+                left: 43%;
+            }
+      
+            .omschrijving1{
+                font-size: 23px;
+                top: 22%;
+                left: 43%;
+                width: 55%;
+            }
+            .image1{
+                top:16%
+            }
+            
+            /*gegevens*/
+            .gegevens{
+                top: 265%;
+                height: 72%;
+            }
+            .contact h5{
+                font-size: 32px;
+            }
+            .contact p{
+                font-size: 23px;
+            }
+            .icon1{
+                width: 39px;
+            }
+            .icon2{
+                width: 39px;
+            }
+
+            .icon3{
+                width: 39px;
+            }
+            .icon1a{
+                font-size: 20px;
+                left: 5%;
+            }
+            .icon2a{
+                left:5%;
+                font-size: 20px;
+            }
+            .icon3a{
+                font-size: 20px;
+                left:5%;
+            }
+        }
+
+        @media screen and (min-width: 1281px){
+             /*fotosize*/
+
+            .fotoObjective{
+                width:30%;
+            }
+            .fotoObjectivee{
+                width: 60%;
+            }
+             /*Initiate*/
+             .Initiate{
+                 background-image: url(images/achtergrond.jpg);
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 height: 98%;
+             }
+             .logo{
+                 position: absolute;
+                 left: 5%;
+                 top:5%;
+                 font-size: 30px;
+                    }
+             
+            
+            .text h5{
+                font-size: 50px;
+                left:15%;
+                top:20%;
+            }
+            .text p{
+                font-size: 28px;
+                left:22%;
+                top:30%;
+            }
+            .button2{
+                top: 50%;
+                left: 40%;
+            }
+            .button{
+                border-radius: 25px;
+                width: 250px;
+                font-size: 70px;
+                height:120px;
+            }
+            
+
+
+            /*objective*/
+            .objective{
+                height:100%;
+                top:98%;
+            }
+            .title{
+                font-size: 45px;
+                top:25%;
+                left: 1%;
+            }
+            .omschrijving{
+                font-size: 22px;
+                width:55%;
+                top: 37%;
+                left:1%;
+            }
+            .image{
+                top: 40%;
+                left: 60%;
+            }
+            
+            
+             /*secondOb*/
+             .secondob{
+                 height: 100%;
+                 top: 198%;
+             }
+            .title1{
+                font-size: 45px;
+                left: 46%;
+                top: 25%;
+            }
+            .omschrijving1{
+                font-size: 22px;
+                left: 46%;
+                width: 51%;
+                top: 37%;
+            }
+            
+            
+            .image1{
+                top:32%;
+                left: 1%;
+                height: 60%;
+            }
+            
+            /*gegevens*/    
+            .contact h5{
+                font-size: 30px;
+                left: 1%;
+            }
+            .contact p{
+                font-size: 20px;
+                left: 1%;
+            }
+            .gegevens{
+                height:50%;
+                top: 298%;
+            }
+            
+            .icon1{
+                font-family: 'Arvo', serif;
+                position: absolute;
+                top:39%;
+                width: 39px;
+            }
+            .icon1a{
+                font-family: 'Arvo', serif;
+                font-size: 20px;
+                left: 5%;
+            }
+
+            .icon2{
+                width: 39px;
+            }
+            .icon2a{
+                font-family: 'Arvo', serif;
+                font-size: 20px;
+                left:5%;
+            }
+            .icon3{
+                width: 39px;
+            }
+            .icon3a{
+                font-family: 'Arvo', serif;
+                font-size: 20px;
+                left:5%;
+            }
+            
+        }
+
+
